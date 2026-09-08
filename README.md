@@ -131,4 +131,4 @@ Then open `http://localhost:8501` and upload an image.
 ## 🙋 Author
 
 **Zainab Bibi** — AI / Machine Learning Engineer
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/zainab-bibi)
+[LinkedIn](https://www.linkedin.com/in/zainab-bibi-a177691b9/)
