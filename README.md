@@ -29,7 +29,7 @@ certificate, a tampered ID) and returns a tamper probability, a heatmap showing
 ## 📸 Output examples
 
 ### Likely tampered
-![Tampered result](output_tampered.png)
+![Tampered result](/output_tampered.png)
 
 ### Likely authentic
 ![Authentic result](output_authentic.png)
