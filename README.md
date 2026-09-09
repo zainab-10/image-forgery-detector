@@ -14,8 +14,7 @@ certificate, a tampered ID) and returns a tamper probability, a heatmap showing
 ## 🎥 Demo
 
 <!-- Option A: upload your screen recording to the repo (or a GitHub Release) and link it here -->
-▶️ **[Watch the demo video](forgery-detection-demo.mp4)**
-
+   ▶️ **[Watch the demo video]([https://github.com/zainab-10/image-forgery-detector/assets/XXXXXXX/forgery-detection-demo.mp4](https://github.com/zainab-10/image-forgery-detector/blob/main/forgery-detection-demo.mp4))**
 <!-- Option B: paste a YouTube link instead and GitHub will show a thumbnail
 [![Watch the demo](assets/thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
 -->
@@ -29,7 +28,7 @@ certificate, a tampered ID) and returns a tamper probability, a heatmap showing
 ## 📸 Output examples
 
 ### Likely tampered
-![Tampered result](/output_tampered.png)
+![Tampered result](output_tampered.png)
 
 ### Likely authentic
 ![Authentic result](output_authentic.png)
