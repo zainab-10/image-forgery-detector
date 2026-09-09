@@ -14,7 +14,7 @@ certificate, a tampered ID) and returns a tamper probability, a heatmap showing
 ## 🎥 Demo
 
 <!-- Option A: upload your screen recording to the repo (or a GitHub Release) and link it here -->
-▶️ **[Watch the demo video](demo/demo.mp4)**
+▶️ **[Watch the demo video](forgery-detection-demo.mp4)**
 
 <!-- Option B: paste a YouTube link instead and GitHub will show a thumbnail
 [![Watch the demo](assets/thumbnail.png)](https://youtu.be/YOUR_VIDEO_ID)
@@ -29,17 +29,17 @@ certificate, a tampered ID) and returns a tamper probability, a heatmap showing
 ## 📸 Output examples
 
 ### Likely tampered
-![Tampered result](assets/result_tampered.png)
+![Tampered result](output_tampered.png)
 
 ### Likely authentic
-![Authentic result](assets/result_authentic.png)
+![Authentic result](output_authentic.png)
 
 ### Grad-CAM heatmap — where the model looked
-![Grad-CAM heatmap](assets/gradcam.png)
+![Grad-CAM heatmap](gradcam_tampered.png)
 
 ---
 
-## 🧠 How it works
+## How it works
 
 The tool runs four independent signals and reads them together:
 
@@ -73,7 +73,7 @@ expected, so the signals are read together rather than in isolation.
 
 ---
 
-## 🚀 Getting started
+## Getting started
 
 ### 1. Clone and set up
 
@@ -115,26 +115,6 @@ Then open `http://localhost:8501` and upload an image.
 
 ---
 
-## 📁 Project structure
-
-```
-image-forgery-detector/
-├── app.py                      # Streamlit app (ELA + copy-move + EXIF + CNN + Grad-CAM)
-├── build_manifest.py           # build labelled CSV from the dataset
-├── phase2_error_level_analysis.py
-├── phase2_copy_move.py
-├── phase2_metadata.py
-├── phase3_precompute_ela.py    # cache ELA images for training
-├── phase3_train.py             # ResNet18 fine-tuning
-├── phase3_gradcam.py           # Grad-CAM heatmap generation
-├── best_model.pth              # trained weights
-├── requirements.txt
-├── assets/                     # screenshots for this README
-└── README.md
-```
-
----
-
 ## ⚠️ Notes & limitations
 
 - **Screenshots and re-saved images skew the score.** Re-compression changes the
@@ -144,15 +124,11 @@ image-forgery-detector/
   on very different image types may vary (normal domain shift).
 - This is a decision-support tool, not legal proof of forgery.
 
----
 
-## 📜 License
-
-Released under the MIT License — see [LICENSE](LICENSE).
 
 ---
 
 ## 🙋 Author
 
 **Zainab Bibi** — AI / Machine Learning Engineer
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/zainab-bibi)
+[LinkedIn](https://www.linkedin.com/in/zainab-bibi-a177691b9/)
